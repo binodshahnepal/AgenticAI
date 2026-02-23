@@ -8,7 +8,7 @@ st.title("💬 Gemini Chat (Streamlit Cloud)")
 # ---------- API KEY (Streamlit Cloud best practice) ----------
 # In Streamlit Cloud: Settings -> Secrets
 # Add: GEMINI_API_KEY = "AIza...."
-api_key = st.secrets.get("GEMINI_API_KEY", "")
+api_key = st.secrets.get("GEMINI_API_KEY", "AIzaSyAlpIvpRGhSWHWzRPNJI7h3vPP5ROWAFwk")
 
 if not api_key:
     st.error("GEMINI_API_KEY not found. Add it in Streamlit Cloud → App → Settings → Secrets.")
